@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+> Bạn đang tìm hiểu cách xây dựng một nền tảng ứng dụng web mạnh mẽ với Next.js? Hãy cùng khám phá hướng dẫn chi tiết này, được thiết kế đặc biệt dành riêng cho các Team Leader và những người lãnh đạo dự án. Chúng tôi sẽ hướng dẫn bạn qua từng bước để tạo ra một mã nguồn cơ bản sử dụng các công cụ hàng đầu hiện nay, đảm bảo ứng dụng của bạn có sự nền tảng vững chắc và dễ quản lý.
 
-First, run the development server:
+## Những Vấn Đề Sẽ Được Giải Quyết:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Sử Dụng Next.js Phiên Bản Mới Nhất và App Router:** Chúng ta sẽ bắt đầu bằng việc sử dụng phiên bản mới nhất của Next.js cùng với thư viện App Router. Điều này đảm bảo rằng ứng dụng của bạn sẽ được xây dựng trên cơ sở công nghệ hiện đại và mạnh mẽ nhất.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Sử Dụng TypeScript:** TypeScript sẽ giúp tăng cường tính nhất quán và kiểm tra lỗi trong mã nguồn. Chúng ta sẽ khám phá cách tích hợp TypeScript vào dự án để đảm bảo mã của bạn luôn ổn định và dễ bảo trì.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Cấu Trúc Router theo Nhóm layout:** Guest và Admin: Quản lý router là một phần quan trọng trong việc phân chia quyền truy cập. Chúng ta sẽ tạo cấu trúc router phù hợp cho cả nhóm khách và quản trị viên, giúp điều hướng dễ dàng và an toàn.
 
-## Learn More
+4. **Quản Lý Trạng Thái Với Redux, Redux Toolkit, Redux Saga:** Để duy trì trạng thái toàn cục và quản lý logic phức tạp, chúng ta sẽ sử dụng Redux kết hợp với Redux Toolkit và Redux Saga. Điều này giúp bạn tổ chức mã một cách hiệu quả và dễ dàng theo dõi.
 
-To learn more about Next.js, take a look at the following resources:
+5. **Quản Lý API Với Apisauce:** Tương tác với các API là một phần quan trọng của ứng dụng. Apisauce sẽ giúp bạn xử lý các yêu cầu API một cách thông minh và hiệu quả.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. **Xây Dựng Form Mạnh Mẽ Với Formik và Yup:** Hướng dẫn này cũng sẽ giới thiệu cách xây dựng các biểu mẫu từ đơn giản đến phức tạp bằng cách sử dụng thư viện Formik và Yup. Điều này giúp bạn tạo ra các biểu mẫu đáng tin cậy và dễ sử dụng.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. **Xây Dựng Giao Diện Người Dùng Với Thư Viện Ant Design:** Cuối cùng, chúng ta sẽ sử dụng thư viện Ant Design để xây dựng giao diện người dùng thân thiện và chuyên nghiệp, giúp ứng dụng của bạn trở nên hấp dẫn và thú vị hơn bao giờ hết.
