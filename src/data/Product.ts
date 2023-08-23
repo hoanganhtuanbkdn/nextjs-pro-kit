@@ -1,0 +1,58 @@
+export const PRODUCTS = [
+	{
+		id: 1,
+		name: 'Purple women shirt',
+		price: 100,
+		image: '/images/product-1.webp',
+		imageHover: '/images/product-1-hover.webp',
+	},
+	{
+		id: 2,
+		name: 'Sneaker',
+		price: 180,
+		image: '/images/product-2.webp',
+		imageHover: '/images/product-2-hover.webp',
+	},
+	{
+		id: 3,
+		name: 'Tote bag',
+		price: 110,
+		image: '/images/product-3.webp',
+		imageHover: '/images/product-3-hover.webp',
+	},
+	{
+		id: 4,
+		name: 'Purple crop top',
+		price: 98,
+		image: '/images/product-4.webp',
+		imageHover: '/images/product-4-hover.webp',
+	},
+	{
+		id: 5,
+		name: 'Women t-shirt',
+		price: 100,
+		image: '/images/sea-green-women-t-shirt.webp',
+		imageHover: '/images/sea-green-women-t-shirt-with-women.webp',
+	},
+	{
+		id: 6,
+		name: 'Black sunglass',
+		price: 180,
+		image: '/images/women-black-sunglass-01.webp',
+		imageHover: '/images/women-black-sunglass.webp',
+	},
+	{
+		id: 7,
+		name: 'Sport innerware',
+		price: 110,
+		image: '/images/women-sport-innerware.webp',
+		imageHover: '/images/sports-t-shirt.webp',
+	},
+	{
+		id: 8,
+		name: 'Bucket hat',
+		price: 98,
+		image: '/images/cotton-bucket-hat.webp',
+		imageHover: '/images/cotton-bucket-hat-on-girl.webp',
+	},
+];
