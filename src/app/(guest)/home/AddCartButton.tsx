@@ -3,8 +3,6 @@
 import { useCartStore } from '@/store/cart/cart.store';
 import React from 'react';
 
-// import { Container } from './styles';
-
 const AddCartButton: React.FC<{ product: any }> = ({ product }) => {
 	const addToCart = useCartStore((state) => state.addToCart);
 	const onAddToCart = () => {

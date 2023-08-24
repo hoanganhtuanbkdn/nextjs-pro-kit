@@ -1,8 +1,15 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
+interface IProduct {
+	id: number;
+	name: string;
+	image: string;
+	imageHover: string;
+	price: number;
+}
 type CartStoreType = {
-	carts: any[];
+	carts: IProduct[];
 	addToCart: (product: any) => void;
 	removeToCart: (productId: number) => void;
 };
