@@ -20,7 +20,7 @@ export default function Header() {
 					<div>Product</div>
 					<div>Contact</div>
 					<div>
-						<Link href="/admin/user">Admin</Link>
+						<Link href="/login">Admin</Link>
 					</div>
 				</div>
 				<CartStore />

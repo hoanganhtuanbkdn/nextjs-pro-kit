@@ -3,6 +3,8 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { store, persistor } from '@/store';
 import { PersistGate } from 'redux-persist/integration/react';
+import theme from '@/theme/themeConfig';
+import { ConfigProvider } from 'antd';
 
 export default function GuestLayout({
 	children,
@@ -12,7 +14,7 @@ export default function GuestLayout({
 	return (
 		<Provider store={store}>
 			<PersistGate loading={null} persistor={persistor}>
-				{children}
+				<ConfigProvider theme={theme}>{children}</ConfigProvider>
 			</PersistGate>
 		</Provider>
 	);

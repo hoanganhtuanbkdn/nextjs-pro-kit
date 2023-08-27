@@ -1,4 +1,6 @@
+import StyledComponentsRegistry from '@/lib/AntdRegistry';
 import './globals.css';
+import './reset.css';
 import type { Metadata } from 'next';
 import { Jost } from 'next/font/google';
 
@@ -16,7 +18,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={jost.className}>{children}</body>
+			<body className={jost.className}>
+				<StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+			</body>
 		</html>
 	);
 }
