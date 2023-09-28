@@ -19,6 +19,7 @@ const LoginPage: React.FC = () => {
 			>
 				<Form.Item
 					name="username"
+					label="Username Or Email *"
 					rules={[
 						{
 							required: true,
